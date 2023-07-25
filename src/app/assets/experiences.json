@@ -1,0 +1,30 @@
+[
+  {
+    "company_name": "Hashstack",
+    "company_logo": "https://www.dappland.com/_next/image?url=%2Fdapps%2Fhashstack%2Fhashstack-logo.png&w=1920&q=75",
+    "job_role": "SDE Intern",
+    "type": "internship",
+    "techstack": ["typescript", "react.js", "next.js"],
+    "duration": "Apr 2023 - Aug 2023",
+    "summary": [
+      "Worked on building the new testnet web application from scratch having more than 100 users interacting on a daily basis.",
+      "Implemented the Redux toolkit to centralize the comprehensive numbers of states at one place which increased the speed upto 130%.",
+      "Worked on adding features and optimizing the existing mainnet web application.",
+      "Used routing for each nav buttons by using next.js file based routing"
+    ]
+  },
+  {
+    "company_name": "ACM Club",
+    "company_logo": "https://www.dappland.com/_next/image?url=%2Fdapps%2Fhashstack%2Fhashstack-logo.png&w=1920&q=75",
+    "job_role": "Web Developer Intern",
+    "type": "internship",
+    "techstack": ["react.js"],
+    "duration": "Nov 2023 - Feb 2023",
+    "summary": [
+      "Worked on building the new testnet web application from scratch having more than 100 users interacting on a daily basis.",
+      "Implemented the Redux toolkit to centralize the comprehensive numbers of states at one place which increased the speed upto 130%.",
+      "Worked on adding features and optimizing the existing mainnet web application.",
+      "Used routing for each nav buttons by using next.js file based routing"
+    ]
+  }
+]
