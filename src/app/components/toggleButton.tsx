@@ -3,22 +3,21 @@
 import React from "react";
 import LightModeLogo from "../assets/lightModeLogo";
 import DarkModeLogo from "../assets/darkModeLogo";
-import { useState } from "react";
+import { useContext } from "react";
+import { MyContext } from "./globalContext";
 
 const ToggleButton = () => {
-  const [lightModeOn, setLightModeOn] = useState(true);
+  const { lightModeOn, setLightModeOn }: any = useContext(MyContext);
   return (
     <button
-      className={`p-3 bg-${
-        lightModeOn ? "gray-200" : "[#1f2937d9]"
-      } rounded-md`}
-      onClick={() => setLightModeOn(!lightModeOn)}
+      className={`h-10 w-10 rounded-md ${
+        lightModeOn ? "bg-gray-200" : "bg-gray-800"
+      }`}
+      onClick={() => {
+        setLightModeOn(!lightModeOn);
+      }}
     >
       {(lightModeOn && <LightModeLogo />) || <DarkModeLogo />}
-      {/* <LightModeLogo /> */}
-      {/* rgba(229,231,235) */}
-      {/* <DarkModeLogo /> */}
-      {/* rgba(31,41,55) */}
     </button>
   );
 };

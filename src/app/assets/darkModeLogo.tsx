@@ -8,7 +8,7 @@ const DarkModeLogo = () => {
       height="20"
       fill="#d4b36e"
       viewBox="0 0 256 256"
-      className="center-content"
+      className="center-content mx-auto"
     >
       <rect width="256" height="256" fill="none"></rect>
       <circle
