@@ -9,7 +9,7 @@ import ResumeLogo from "../assets/resumeLogo";
 const About = () => {
   const { setCurrentNav }: any = useContext(MyContext);
   return (
-    <main className="md:px-0 px-8 max-w-2xl m-auto min-h-screen pb-24">
+    <main className="md:px-0 px-8 max-w-2xl m-auto min-h-screen pb-20">
       <h2 className="font-bold text-3xl pt-2 md:text-5xl tracking-tight mb-6 dark:text-white">
         who am i?
       </h2>
@@ -60,14 +60,18 @@ const About = () => {
         <div className="flex justify-evenly">
           <a
             href="mailto:shaikhfaisal3412@gmail.com"
-            className="text-[#6d6868] dark:text-white px-4 md:px-20 py-4 bg-gray-200 dark:bg-gray-900 rounded-md flex text-md font-bold"
+            className="text-[#6d6868] dark:text-white px-4 md:px-20 py-4 bg-gray-200 dark:bg-gray-900 rounded-md flex text-md font-bold hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
           >
             <span>
               <MentionLogo />
             </span>
             Contact
           </a>
-          <a className="text-[#6d6868] dark:text-white px-4 md:px-20 py-4 bg-gray-200 dark:bg-gray-900 rounded-md flex text-md font-bold">
+          <a
+            href="/Resume.pdf"
+            target="_blank"
+            className="text-[#6d6868] dark:text-white px-4 md:px-20 py-4 bg-gray-200 dark:bg-gray-900 rounded-md flex text-md font-bold hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
+          >
             <span>
               <ResumeLogo />
             </span>
@@ -107,7 +111,7 @@ const About = () => {
           <a
             href="https://leetcode.com/captainFaisal/"
             target="_blank"
-            className="font-bold"
+            className="font-bold hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
           >
             @leetcode
           </a>{" "}

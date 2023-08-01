@@ -29,7 +29,7 @@ const GlobalContext = ({ children }: any) => {
     <MyContext.Provider
       value={{ lightModeOn, setLightModeOn, currentNav, setCurrentNav }}
     >
-      <div className="dark:bg-[#060912]">{children}</div>
+      <div className="">{children}</div>
     </MyContext.Provider>
   );
 };
