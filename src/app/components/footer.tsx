@@ -1,12 +1,14 @@
 "use client";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import Twitter from "../assets/twitter";
 import Github from "../assets/github";
 import LinkedIn from "../assets/linkedIn";
 import Leetcode from "../assets/leetcode";
 import Gmail from "../assets/gmail";
+import { MyContext } from "./globalContext";
 
 const Footer = () => {
+  const { lightModeOn }: any = useContext(MyContext);
   const [currentColor, setCurrentColor] = useState("rgb(107 114 128)");
   return (
     <div className="flex flex-col gap-4 pb-8">
@@ -36,7 +38,9 @@ const Footer = () => {
           href="https://leetcode.com/captainFaisal/"
           target="_blank"
           className="hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
-          onMouseOver={() => setCurrentColor("#0cf2b2")}
+          onMouseOver={() =>
+            setCurrentColor(!lightModeOn ? "#0cf2b2" : "#0097e6d9")
+          }
           onMouseLeave={() => setCurrentColor("rgb(107 114 128)")}
         >
           <Leetcode currentColor={currentColor} />
