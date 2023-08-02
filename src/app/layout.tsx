@@ -4,13 +4,7 @@ import { Inter } from "next/font/google";
 import ToggleButton from "./components/toggleButton";
 import NavButtons from "./components/navButtons";
 import dynamic from "next/dynamic";
-import Twitter from "./assets/twitter";
-import Github from "./assets/github";
-import LinkedIn from "./assets/linkedIn";
-import Leetcode from "./assets/leetcode";
-import MentionLogo from "./assets/mentionLogo";
-import Gmail from "./assets/gmail";
-// import GlobalContext from "./components/globalContext";
+import Footer from "./components/footer";
 const inter = Inter({ subsets: ["latin"] });
 const GlobalContext = dynamic(() => import("./components/globalContext"), {
   ssr: false,
@@ -39,43 +33,7 @@ export default function RootLayout({
             </nav>
           </div>
           {children}
-          <div className="flex flex-col gap-4 pb-8">
-            <div className="flex justify-center gap-4 text-[#6d6868] dark:text-gray-500">
-              <a
-                href=""
-                className="hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
-              >
-                <Twitter />
-              </a>
-              <a
-                href=""
-                className="hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
-              >
-                <Github />
-              </a>
-              <a
-                href=""
-                className="hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
-              >
-                <LinkedIn />
-              </a>
-              <a
-                href=""
-                className="hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
-              >
-                <Leetcode currentColor={"rgb(107 114 128)"} />
-              </a>
-              <a
-                href=""
-                className="hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
-              >
-                <Gmail />
-              </a>
-            </div>
-            <div className="text-[#6d6868] dark:text-gray-500 text-center font-bold">
-              2023 - @Faisal
-            </div>
-          </div>
+          <Footer />
         </GlobalContext>
       </body>
     </html>
