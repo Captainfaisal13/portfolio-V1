@@ -1,10 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import ToggleButton from "./components/toggleButton";
-import NavButtons from "./components/navButtons";
 import dynamic from "next/dynamic";
 import Footer from "./components/footer";
+import Navbar from "./components/navbar";
 const inter = Inter({ subsets: ["latin"] });
 const GlobalContext = dynamic(() => import("./components/globalContext"), {
   ssr: false,
@@ -23,15 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-poppins dark:bg-[#060912]">
         <GlobalContext>
-          <div className="py-8 px-8">
-            <nav
-              className="flex justify-between mx-auto rounded-md max-w-4xl md:p-8"
-              style={{ alignItems: "center" }}
-            >
-              <ToggleButton />
-              <NavButtons />
-            </nav>
-          </div>
+          <Navbar />
           {children}
           <Footer />
         </GlobalContext>
