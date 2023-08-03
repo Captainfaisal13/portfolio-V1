@@ -17,21 +17,21 @@ const Contact = () => {
     }
     console.log("success");
     router.push("/success");
-    // emailjs
-    //   .sendForm(
-    //     "service_o4ch7nl",
-    //     "template_ar0vomq",
-    //     form.current,
-    //     "Ptg5D4662LMNGA4LG"
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
+    emailjs
+      .sendForm(
+        "service_o4ch7nl",
+        "template_ar0vomq",
+        form.current,
+        "Ptg5D4662LMNGA4LG"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
