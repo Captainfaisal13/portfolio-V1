@@ -17,7 +17,10 @@ const ExperienceContainer = () => {
         {Experiences &&
           Experiences?.map((curr: any, index) => {
             return (
-              <div className="border border-gray-200 dark:border-gray-800 rounded mb-4 text-[#6d6868] dark:text-[#a9a9a9]">
+              <div
+                key={index}
+                className="border border-gray-200 dark:border-gray-800 rounded mb-4 text-[#6d6868] dark:text-[#a9a9a9]"
+              >
                 <div className="flex justify-between p-4 ">
                   <div className="flex gap-2">
                     <div>
@@ -41,9 +44,9 @@ const ExperienceContainer = () => {
                   </h4>
                 </div>
                 <div className="py-4">
-                  {curr.summary?.map((sum: any) => {
+                  {curr.summary?.map((sum: any, index: any) => {
                     return (
-                      <p className="px-4 text-sm flex gap-1">
+                      <p key={index} className="px-4 text-sm flex gap-1">
                         <span className="text-black dark:text-[#a9a9a9]">
                           •
                         </span>{" "}

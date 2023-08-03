@@ -7,7 +7,8 @@ export default function Home() {
   return (
     <main className="md:px-0 px-8 max-w-2xl m-auto ">
       <h2 className="font-bold text-3xl pt-2 md:text-5xl tracking-tight mb-4 dark:text-white">
-        i'm <span className="text-[#0097e6d9] dark:text-[#0cf2b2]">faisal</span>
+        i&apos;m{" "}
+        <span className="text-[#0097e6d9] dark:text-[#0cf2b2]">faisal</span>
       </h2>
       <RoughNotationGroup show={true}>
         <p className="text-[#6d6868] dark:text-[#a9a9a9] mb-20">
@@ -46,7 +47,7 @@ export default function Home() {
           {"  "}
           student{" "}
           <a
-            href="https://hashstack.finance/"
+            href="https://mu.ac.in/"
             target="_blank"
             className="font-bold hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
           >
@@ -65,9 +66,9 @@ export default function Home() {
             <span className="text-black">frontend engineer</span>
           </RoughNotation>
           {"  "} . I do competitive programming and open source in my free time.
-          <br></br> want to know what's up? hit me up on{" "}
+          <br></br> want to know what&apos;s up? hit me up on{" "}
           <a
-            href="https://hashstack.finance/"
+            href="https://www.linkedin.com/in/shaikhfaisal13/"
             target="_blank"
             className="font-bold hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
           >

@@ -6,7 +6,11 @@ import RokketBinge from "../assets/rokketBinge";
 import CoinTrace from "../assets/coinTrace";
 import Matalino from "../assets/matalino";
 const ProjectsContainer = () => {
-  const projectIcons = [<RokketBinge />, <CoinTrace />, <Matalino />];
+  const projectIcons = [
+    <RokketBinge key={0} />,
+    <CoinTrace key={1} />,
+    <Matalino key={2} />,
+  ];
 
   return (
     <div className="pb-14">
@@ -15,9 +19,10 @@ const ProjectsContainer = () => {
       </h2>
       <div>
         {Projects &&
-          Projects?.map((curr: any, index) => {
+          Projects?.map((curr: any, index: any) => {
             return (
               <div
+                key={index}
                 className={`border border-gray-200 dark:border-gray-800 rounded ${
                   index !== Projects.length - 1 ? "mb-4" : "mb-0"
                 } text-[#6d6868] dark:text-[#a9a9a9] p-4 flex flex-col gap-4`}

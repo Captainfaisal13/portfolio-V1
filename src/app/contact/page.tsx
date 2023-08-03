@@ -8,11 +8,11 @@ const Contact = () => {
       </h2>
       <div>
         <p className="text-[#6d6868] dark:text-[#a9a9a9] mb-4">
-          I'm always on the lookout for incredible opportunities and exciting
-          connections, so don't hesitate to get in touch. My enthusiasm knows no
-          bounds, and I'm ready to dive headfirst into the next big thing that
-          comes my way. Whether it's collaborating on a thrilling project or
-          just having a chat over a cup of coffee :)
+          I&apos;m always on the lookout for incredible opportunities and
+          exciting connections, so don&apos;t hesitate to get in touch. My
+          enthusiasm knows no bounds, and I&apos;m ready to dive headfirst into
+          the next big thing that comes my way. Whether it&apos;s collaborating
+          on a thrilling project or just having a chat over a cup of coffee :)
         </p>
         <div className="">
           <input

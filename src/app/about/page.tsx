@@ -27,10 +27,10 @@ const About = () => {
         </div>
         <div>
           <p className="text-[#6d6868] dark:text-[#a9a9a9] my-2">
-            If you've reached this point, chances are you already know what I
-            do, where I work, and where I study. Now that we've got the
-            formalities out of the way, let's dive into discovering more about
-            me. <br></br>In case you're not familiar, just click{" "}
+            If you&apos;ve reached this point, chances are you already know what
+            I do, where I work, and where I study. Now that we&apos;ve got the
+            formalities out of the way, let&apos;s dive into discovering more
+            about me. <br></br>In case you&apos;re not familiar, just click{" "}
             <Link
               href="/"
               className="font-bold"
@@ -44,13 +44,13 @@ const About = () => {
           </p>
           <p className="text-[#6d6868] dark:text-[#a9a9a9]">
             As you may have already gathered, I am Faisal – yes, the very same
-            person mentioned in bold on this website's homepage.
+            person mentioned in bold on this website&apos;s homepage.
           </p>
         </div>
       </div>
       <p className="text-[#6d6868] dark:text-[#a9a9a9]">
-        I'm a twenty-year-old with a passion for a wide range of interests, from
-        sports and technology. Additionally, I find joy in watching Movies,
+        I&apos;m a twenty-year-old with a passion for a wide range of interests,
+        from sports and technology. Additionally, I find joy in watching Movies,
         spending time with Family, and visiting different amazing places.
       </p>
       <div>
@@ -95,15 +95,15 @@ const About = () => {
         <p className="text-[#6d6868] dark:text-[#a9a9a9]">
           When it comes to UI, I rely on JavaScript (mainly React/Next +
           Tailwind, sometimes using Chakra UI). For backend development, I use
-          Typescript/Javascript. In "competitive programming" or "leetcoding," I
-          tend go with C++. Additionally, I have knowledge of Java, Python, and
-          more.
+          Typescript/Javascript. In &quot;competitive programming&quot; or
+          &quot;leetcoding,&quot; I tend go with C++. Additionally, I have
+          knowledge of Java, Python, and more.
         </p>
         <h4 className="font-semibold my-1 text-lg text-black dark:text-white">
           Programming Drills
         </h4>
         <p className="text-[#6d6868] dark:text-[#a9a9a9]">
-          Even with the ongoing online debate between CP vs Dev, I'm an
+          Even with the ongoing online debate between CP vs Dev, I&apos;m an
           enthusiast of both worlds. In my free time, I enjoy indulging in
           competitive programming and leetcoding. These activities encourage me
           to think efficiently, especially when dealing with challenging edge
@@ -130,7 +130,7 @@ const About = () => {
           🎵 - Mohit Chauhan, KK.
         </p>
         <h4 className="font-semibold my-1 text-lg text-black dark:text-white">
-          What I'm Up To
+          What I&apos;m Up To
         </h4>
         <p className="text-[#6d6868] dark:text-[#a9a9a9]">
           Learning - DSA, Docker, Javascript(always)
