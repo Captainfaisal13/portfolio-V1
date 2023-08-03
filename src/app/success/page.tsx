@@ -1,0 +1,58 @@
+"use client";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import Link from "next/link";
+import BackButton from "../assets/backButton";
+
+const Contact = () => {
+  const form: any = useRef();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const sendEmail = (e: any) => {
+    e.preventDefault();
+    // console.log(form.current);
+    console.log("form values", name, email, message);
+    setName("");
+    setEmail("");
+    setMessage("");
+    emailjs
+      .sendForm(
+        "service_o4ch7nl",
+        "template_ar0vomq",
+        form.current,
+        "Ptg5D4662LMNGA4LG"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+  return (
+    <main className="md:px-0 px-8 max-w-2xl m-auto mb-20">
+      <h2 className="font-bold text-3xl pt-2 md:text-5xl tracking-tight mb-4 dark:text-white">
+        message sent successfully
+      </h2>
+      <div ref={form} onSubmit={sendEmail}>
+        <p className="text-[#6d6868] dark:text-[#a9a9a9] mb-4">
+          Thanks. I&apos;ll get back to you as eary as possible :)
+        </p>
+        <Link href="/contact">
+          <button className="p-2 dark:bg-blue-500 rounded-md dark:text-white bg-[#0cf2b2] flex gap-1 pr-4">
+            <span className="p-1">
+              <BackButton />
+            </span>
+            Get Back
+          </button>
+        </Link>
+      </div>
+    </main>
+  );
+};
+
+export default Contact;
