@@ -33,9 +33,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+- Leetcode icon hover [Done]
+- Sticky navbar [Done]
+
 Remaining
 
-- Leetcode icon hover
-- Sticky navbar
 - contact mail integration
 - routing with seperate projects, experience
+- work on ACM Club(experience section) content
+- different colors on highlighting(random approach)
