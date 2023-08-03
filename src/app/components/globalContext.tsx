@@ -15,6 +15,12 @@ const GlobalContext = ({ children }: any) => {
   );
 
   useEffect(() => {
+    window.scrollTo({
+      top: 0,
+    });
+  }, [pathName]);
+
+  useEffect(() => {
     if (!lightModeOn) {
       document.documentElement.classList.add("dark");
       localStorage.setItem("theme", "dark");

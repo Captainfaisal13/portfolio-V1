@@ -9,7 +9,7 @@ const NavButtons = () => {
   return (
     <div className="text-[#060912d9] dark:text-white">
       <ul className="flex my-auto">
-        <Link href={"/"}>
+        <Link href={"/"} scroll={false}>
           <li
             className={`py-2 px-2 md:px-4 ${
               currentNav === 0 && "font-semibold"
@@ -19,7 +19,7 @@ const NavButtons = () => {
             <button>home</button>
           </li>
         </Link>
-        <Link href={"/about"}>
+        <Link href={"/about"} scroll={false}>
           <li
             className={`py-2 px-2 md:px-4 ${
               currentNav === 1 && "font-semibold"
@@ -29,7 +29,7 @@ const NavButtons = () => {
             <button>about</button>
           </li>
         </Link>
-        <Link href={"/contact"}>
+        <Link href={"/contact"} scroll={false}>
           <li
             className={`py-2 px-2 md:px-4 ${
               currentNav === 2 && "font-semibold"
