@@ -46,11 +46,14 @@ const ExperienceContainer = () => {
                 <div className="py-4">
                   {curr.summary?.map((sum: any, index: any) => {
                     return (
-                      <p key={index} className="px-4 text-sm flex gap-1">
+                      <p
+                        key={index}
+                        className="px-4 text-sm flex gap-1 md:gap-2 mb-1"
+                      >
                         <span className="text-black dark:text-[#a9a9a9]">
                           •
                         </span>{" "}
-                        <span>{sum}</span>
+                        <span dangerouslySetInnerHTML={{ __html: sum }} />
                       </p>
                     );
                   })}

@@ -7,10 +7,10 @@
     "techstack": ["typescript", "react.js", "next.js"],
     "duration": "Apr 2023 - Aug 2023",
     "summary": [
-      "Worked on building the new testnet web application from scratch having more than 100 users interacting on a daily basis.",
-      "Implemented the Redux toolkit to centralize the comprehensive numbers of states at one place which increased the speed upto 130%.",
-      "Worked on adding features and optimizing the existing mainnet web application.",
-      "Used routing for each nav buttons by using next.js file based routing"
+      "Worked on the development of a new <b>testnet web application</b> from the ground up, facilitating seamless interaction for over <b>100 users</b> on a daily basis, with more than <b>200 transactions</b> processed each day.",
+      "Successfully integrated <b>Redux toolkit</b> to efficiently centralize numerous states, significantly reducing backend and blockchain contract fetching calls. As a result, the application's speed improved by an <b>impressive 60%</b>.",
+      "Worked on adding features and optimizing the existing <b>mainnet</b> web application.",
+      "Utilized <b>Apexcharts</b> to visually represent the protocol's progress through dynamic graphs like area charts and line charts, enhancing <b>data visualization</b> for better insights."
     ]
   },
   {
@@ -19,12 +19,12 @@
     "job_role": "Web Developer Intern",
     "type": "internship",
     "techstack": ["react.js"],
-    "duration": "Nov 2023 - Feb 2023",
+    "duration": "Nov 2022 - Feb 2023",
     "summary": [
-      "Worked on building the new testnet web application from scratch having more than 100 users interacting on a daily basis.",
-      "Implemented the Redux toolkit to centralize the comprehensive numbers of states at one place which increased the speed upto 130%.",
-      "Worked on adding features and optimizing the existing mainnet web application.",
-      "Used routing for each nav buttons by using next.js file based routing"
+      "Contributed to the development of the <b>official landing page</b> for the ACM club of MHSSCE.",
+      "Implemented <b>reusable files</b> for updating upcoming events and winners of past events.",
+      "Developed separate components to address various <b>UI requirements</b>.",
+      "Worked on the <b>design</b> part of the website"
     ]
   }
 ]
