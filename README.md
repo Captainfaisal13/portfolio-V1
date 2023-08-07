@@ -36,11 +36,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Leetcode icon hover [Done]
 - Sticky navbar [Done]
 - contact mail integration [Done]
+- work on ACM Club(experience section) content [Done]
+- headers, favicon updates [Done]
 
 Remaining
 
 - routing with seperate projects, experience
-- work on ACM Club(experience section) content
 - different colors on highlighting(random approach)
-- headers, favicon updates
 - add updated resume
