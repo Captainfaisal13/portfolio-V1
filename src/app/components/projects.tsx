@@ -5,6 +5,7 @@ import ProjectButton from "../assets/projectButton";
 import RokketBinge from "../assets/rokketBinge";
 import CoinTrace from "../assets/coinTrace";
 import Matalino from "../assets/matalino";
+import Link from "next/link";
 const ProjectsContainer = () => {
   const projectIcons = [
     <RokketBinge key={0} />,
@@ -21,7 +22,8 @@ const ProjectsContainer = () => {
         {Projects &&
           Projects?.map((curr: any, index: any) => {
             return (
-              <div
+              <Link
+                href={`/projects/${curr.project_link_name}`}
                 key={index}
                 className={`border border-gray-200 dark:border-gray-800 rounded ${
                   index !== Projects.length - 1 ? "mb-4" : "mb-0"
@@ -41,7 +43,7 @@ const ProjectsContainer = () => {
                   </div>
                   <div className="my-auto text-sm">{curr.description}</div>
                 </div>
-              </div>
+              </Link>
             );
           })}
       </div>

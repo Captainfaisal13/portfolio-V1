@@ -1,18 +1,21 @@
 [
   {
     "project_name": "Rokket Binge",
+    "project_link_name": "rokketbinge",
     "project_link": "https://rokketbinge.netlify.app/",
     "techstack": ["next.js", "react.js", "typescript"],
     "description": "Movies and Series library for Cinema Freaks."
   },
   {
     "project_name": "Coin Tracer",
+    "project_link_name": "cointrace",
     "project_link": "https://cointracer.netlify.app/",
     "techstack": ["javascript", "react.js", "next.js"],
     "description": "A Display of Top 50 Cryptocurrencies in the Market with their Real-Time Prices and Details."
   },
   {
     "project_name": "Matalino E-Commerce Website",
+    "project_link_name": "matalino",
     "project_link": "captainfaisal13.github.io/Matalino/",
     "techstack": ["HTML", "CSS", "javascript"],
     "description": "A Static E-Commere Website Using HTML, CSS, Javascript"

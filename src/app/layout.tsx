@@ -22,6 +22,11 @@ export default function RootLayout({
   return (
     <html lang="en" style={{ scrollBehavior: "smooth" }}>
       <link rel="icon" href="/favicon.ico" />
+      {/* <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-light.min.css"
+      ></link> */}
+
       <body className="font-poppins dark:bg-[#060912]">
         <GlobalContext>
           <Navbar />
