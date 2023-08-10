@@ -38,9 +38,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - contact mail integration [Done]
 - work on ACM Club(experience section) content [Done]
 - headers, favicon updates [Done]
+- routing with seperate projects [Done]
 
 Remaining
 
-- routing with seperate projects, experience
 - different colors on highlighting(random approach)
 - add updated resume
