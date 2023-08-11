@@ -8,18 +8,26 @@
   background: #0d2f6e;
 }
 
-.mdx blockquote p {
-  color: red;
-}
-.mdx-dark blockquote p {
-  color: yellow;
-}
-
 pre::-webkit-scrollbar {
   display: none;
 }
 code::-webkit-scrollbar {
   display: none;
+}
+
+.mdx-list {
+  position: relative;
+}
+
+.mdx-list::before {
+  content: "";
+  position: absolute;
+  background-color: #d1d5db;
+  border-radius: 50%;
+  width: 0.375em;
+  height: 0.375em;
+  top: calc(0.775em - 0.1875em);
+  left: 0.25em;
 }
 
 /* :root {

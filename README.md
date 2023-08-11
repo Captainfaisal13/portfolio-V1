@@ -40,6 +40,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - headers, favicon updates [Done]
 - routing with seperate projects [Done]
 - different colors on highlighting(random approach) [Done]
+- close logs and list item handling [Done]
+- custom error page [Done]
 
 Remaining
 

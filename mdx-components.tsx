@@ -34,7 +34,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     },
     li: ({ children }) => {
       return (
-        <li className="text-gray-700 dark:text-gray-300 list-inside list-disc">
+        <li className="text-gray-700 dark:text-gray-300 pl-7 mdx-list">
           {children}
         </li>
       );

@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 export const MyContext = createContext({});
 const GlobalContext = ({ children }: any) => {
   const pathName = usePathname();
-  console.log("path name", pathName);
+  // console.log("path name", pathName);
 
   const [lightModeOn, setLightModeOn] = useState(
     localStorage.getItem("theme") === null ? true : false

@@ -11,11 +11,11 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const sendEmail = (e: any) => {
     e.preventDefault();
-    console.log("form values", name, email, message);
+    // console.log("form values", name, email, message);
     if (name === "" || email === "" || message === "") {
       return;
     }
-    console.log("success");
+    // console.log("success");
     router.push("/success");
     emailjs
       .sendForm(

@@ -14,12 +14,10 @@ export default function Home() {
     for (let i = 0; i < n; i++) {
       const randomIndex = Math.floor(Math.random() * colors.length);
       temp.push(colors[randomIndex]);
-      console.log("current color before", colors);
 
       colors = colors
         .slice(0, randomIndex)
         .concat(colors.slice(randomIndex + 1));
-      console.log("current color after", colors);
     }
     setMyColors(temp);
   };
