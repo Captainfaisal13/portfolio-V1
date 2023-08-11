@@ -3,7 +3,30 @@ import Image from "next/image";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import ProjectsContainer from "./components/projects";
 import ExperienceContainer from "./components/experience";
+import { useEffect, useState } from "react";
 export default function Home() {
+  const [myColors, setMyColors] = useState<string[]>([]);
+
+  const colors = ["#FDE68A", "#C7D2FE", "#A7F3D0", "#BAE6FD"];
+  const generateRandomColors = (colors: string[], n: number) => {
+    const temp: string[] = [];
+    if (n > colors.length) return undefined;
+    for (let i = 0; i < n; i++) {
+      const randomIndex = Math.floor(Math.random() * colors.length);
+      temp.push(colors[randomIndex]);
+      console.log("current color before", colors);
+
+      colors = colors
+        .slice(0, randomIndex)
+        .concat(colors.slice(randomIndex + 1));
+      console.log("current color after", colors);
+    }
+    setMyColors(temp);
+  };
+
+  useEffect(() => {
+    generateRandomColors(colors, 3);
+  }, []);
   return (
     <main className="md:px-0 px-8 max-w-2xl m-auto ">
       <h2 className="font-bold text-3xl pt-2 md:text-5xl tracking-tight mb-4 dark:text-white">
@@ -14,11 +37,11 @@ export default function Home() {
         <p className="text-[#6d6868] dark:text-[#a9a9a9] mb-20">
           as of july 2023, i work as a{"  "}
           <RoughNotation
-            animationDelay={0}
+            animationDelay={100}
             animationDuration={1100}
             type="highlight"
             show={true}
-            color="#FDE68A"
+            color={myColors[0]}
             multiline={true}
             order={"1"}
           >
@@ -38,7 +61,7 @@ export default function Home() {
             animationDuration={1100}
             type="highlight"
             show={true}
-            color="#C7D2FE"
+            color={myColors[1]}
             multiline={true}
             order={"2"}
           >
@@ -59,7 +82,7 @@ export default function Home() {
             animationDuration={1100}
             type="highlight"
             show={true}
-            color="#BAE6FD"
+            color={myColors[2]}
             multiline={true}
             order={"3"}
           >

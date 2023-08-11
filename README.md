@@ -39,8 +39,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - work on ACM Club(experience section) content [Done]
 - headers, favicon updates [Done]
 - routing with seperate projects [Done]
+- different colors on highlighting(random approach) [Done]
 
 Remaining
 
-- different colors on highlighting(random approach)
 - add updated resume
