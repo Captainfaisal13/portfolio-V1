@@ -9,7 +9,8 @@ const Custom404 = () => {
           404?
         </h2>
         <p className="text-gray-600 dark:text-gray-400 mb-8">
-          The page you're looking for might have gotten lost. Or maybe you did?
+          The page you`&apos;re looking for might have gotten lost. Or maybe you
+          did?
         </p>
         <Link
           href="/"
