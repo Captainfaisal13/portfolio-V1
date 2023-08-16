@@ -24,7 +24,7 @@ const Page = () => {
           Github Repo
         </a>
         <a
-          href="https://cointracer.netlify.app/"
+          href="https://coin-tracer.vercel.app/"
           target="_blank"
           className="p-2 text-blue-500 bg-blue-100 rounded-md font-medium"
         >
