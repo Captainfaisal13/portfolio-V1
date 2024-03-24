@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import dynamic from "next/dynamic";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
+import { Analytics } from "@vercel/analytics/react";
+
 const inter = Inter({ subsets: ["latin"] });
 const GlobalContext = dynamic(() => import("./components/globalContext"), {
   ssr: false,
