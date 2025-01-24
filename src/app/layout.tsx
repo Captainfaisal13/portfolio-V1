@@ -13,7 +13,7 @@ const GlobalContext = dynamic(() => import("./components/globalContext"), {
 export const metadata: Metadata = {
   title: "Faisal - Developer and Student",
   description:
-    "Welcome to my portfolio website! I am a web developer and a passionate student. This site showcases my projects, skills, technologies I am currently learning, and my social links. Explore my work, learn about my abilities, and connect with me to foster a strong community. Thank you for visiting!",
+    "Welcome to my portfolio website! I am a passionate Software Developer. This site showcases my projects, skills, technologies I am currently learning, and my social links. Explore my work, learn about my abilities, and connect with me to foster a strong community. Thank you for visiting!",
 };
 
 export default function RootLayout({

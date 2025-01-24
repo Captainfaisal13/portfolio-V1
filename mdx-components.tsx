@@ -29,6 +29,13 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         </h3>
       );
     },
+    h4: ({ children }) => {
+      return (
+        <h3 className="text-lg font-bold mt-4 mb-2 dark:text-white">
+          {children}
+        </h3>
+      );
+    },
     p: ({ children }) => {
       return <p className="text-gray-700 dark:text-gray-300">{children}</p>;
     },

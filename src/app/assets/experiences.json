@@ -1,30 +1,60 @@
 [
   {
-    "company_name": "Hashstack",
-    "company_logo": "https://www.dappland.com/_next/image?url=%2Fdapps%2Fhashstack%2Fhashstack-logo.png&w=1920&q=75",
-    "job_role": "SDE Intern",
+    "company_name": "Trikon",
+    "company_logo": "/assets/images/trikon-logo.jpeg",
+    "job_role": "Software Engineer",
+    "type": "full-time",
+    "techstack": [
+      "Next.js",
+      "Tanstack/React-Query",
+      "TailwindCSS",
+      "Typescript",
+      "ShadCN",
+      "Wagmi",
+      "Viem"
+    ],
+    "duration": "Jul 2024 - Present",
+    "summary": [
+      "Developed a public presale page contributed to <b>100k+ USD raised</b>, enabling users to connect their wallets via <b>RainbowKit</b> and execute blockchain payments through seamless smart contract calls using wagmi and viem, while integrating <b>Wert</b> for fiat transactions",
+      "Revamped the entire platform interface to showcase the new chain abstraction offering, increasing user engagement by <b>40%</b> and built a dynamic blog section with <b>MDX.js</b>, leveraging Node.js and Express.js for content management.",
+      "Built a Telegram mini-app to boost user engagement, achieving a <b>peak subscriber count of 500k+</b>, and <b>integrated AdsGram for ad revenue generation</b>.",
+      "Developed core Web3 features for buying, sending, swapping, and staking crypto assets, integrating <b>MoonPay for asset purchases</b>."
+    ]
+  },
+  {
+    "company_name": "Trikon",
+    "company_logo": "/assets/images/trikon-logo.jpeg",
+    "job_role": "Software Engineer Intern",
     "type": "internship",
-    "techstack": ["typescript", "react.js", "next.js"],
+    "techstack": [
+      "Next.js",
+      "Redux",
+      "Tanstack/React-Query",
+      "TailwindCSS",
+      "Typescript",
+      "Node.js",
+      "Express.js"
+    ],
+    "duration": "Apr 2024 - Jul 2024",
+    "summary": [
+      "Implemented user authentication with <b>Web3Auth</b> for secure and efficient login functionality.",
+      "Built a responsive and modern UI/UX designs using <b>Next.js and TailwindCSS</b>. Streamlined state management with Redux Toolkit, <b>reducing API call time by an impressive 45%</b>.",
+      "Engineered backend APIs with Node.js and Express.js to notify early-access members about product updates via email.",
+      "Utilized <b>ApexCharts</b> to create dynamic graphs, visually representing the protocol’s progress and enhancing data insights."
+    ]
+  },
+  {
+    "company_name": "Hashstack",
+    "company_logo": "/assets/images/hashstack-logo.png",
+    "job_role": "Software Engineer Intern",
+    "type": "internship",
+    "techstack": ["Next.js", "Redux", "Chakra UI", "Typescript", "ApexCharts"],
     "duration": "Apr 2023 - Aug 2023",
     "summary": [
       "Worked on the development of a new <b>testnet web application</b> from the ground up, facilitating seamless interaction for over <b>100 users</b> on a daily basis, with more than <b>200 transactions</b> processed each day.",
       "Successfully integrated <b>Redux toolkit</b> to efficiently centralize numerous states, significantly reducing backend and blockchain contract fetching calls. As a result, the application's speed improved by an <b>impressive 60%</b>.",
       "Worked on adding features and optimizing the existing <b>mainnet</b> web application.",
       "Utilized <b>Apexcharts</b> to visually represent the protocol's progress through dynamic graphs like area charts and line charts, enhancing <b>data visualization</b> for better insights."
-    ]
-  },
-  {
-    "company_name": "ACM Club",
-    "company_logo": "https://www.dappland.com/_next/image?url=%2Fdapps%2Fhashstack%2Fhashstack-logo.png&w=1920&q=75",
-    "job_role": "Web Developer Intern",
-    "type": "internship",
-    "techstack": ["react.js"],
-    "duration": "Nov 2022 - Feb 2023",
-    "summary": [
-      "Contributed to the development of the <b>official landing page</b> for the ACM club of MHSSCE.",
-      "Implemented <b>reusable files</b> for updating upcoming events and winners of past events.",
-      "Developed separate components to address various <b>UI requirements</b>.",
-      "Worked on the <b>design</b> part of the website"
     ]
   }
 ]

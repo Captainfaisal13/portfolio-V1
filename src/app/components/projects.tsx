@@ -6,11 +6,13 @@ import RokketBinge from "../assets/rokketBinge";
 import CoinTrace from "../assets/coinTrace";
 import Matalino from "../assets/matalino";
 import Link from "next/link";
+import EchoSphereIcon from "../assets/echoSphereIcon";
 const ProjectsContainer = () => {
   const projectIcons = [
-    <RokketBinge key={0} />,
-    <CoinTrace key={1} />,
-    <Matalino key={2} />,
+    <EchoSphereIcon key={0} />,
+    <RokketBinge key={1} />,
+    <CoinTrace key={2} />,
+    // <Matalino key={3} />,
   ];
 
   return (

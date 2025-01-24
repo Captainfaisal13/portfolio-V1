@@ -33,7 +33,7 @@ export default function Home() {
       </h2>
       <RoughNotationGroup show={true}>
         <p className="text-[#6d6868] dark:text-[#a9a9a9] mb-20">
-          as of july 2023, i work as a{"  "}
+          as of 2025, i work as a{"  "}
           <RoughNotation
             animationDelay={100}
             animationDuration={1100}
@@ -43,17 +43,17 @@ export default function Home() {
             multiline={true}
             order={"1"}
           >
-            <span className="text-black px-1">software engineer intern</span>
+            <span className="text-black px-1">software engineer</span>
           </RoughNotation>
           {"  "}
           <a
-            href="https://hashstack.finance/"
+            href="https://trikon.io/"
             target="_blank"
             className="font-bold hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
           >
-            @Hashstack
+            @Trikon
           </a>{" "}
-          while also being a {"  "}
+          handling all the frontend stuff, previously i worked as a{" "}
           <RoughNotation
             animationDelay={1100}
             animationDuration={1100}
@@ -63,18 +63,26 @@ export default function Home() {
             multiline={true}
             order={"2"}
           >
-            <span className="text-black px-1">Final Year</span>
-          </RoughNotation>
+            <span className="text-black px-1">software engineer intern</span>
+          </RoughNotation>{" "}
           {"  "}
-          student{" "}
           <a
-            href="https://mu.ac.in/"
+            href="https://trikon.io/"
             target="_blank"
             className="font-bold hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
           >
-            @MumbaiUniversity
-          </a>{" "}
-          . I am passionate and skillful{"   "}
+            @Trikon
+          </a>
+          , {"  "}
+          <a
+            href="https://hashstack.finance/"
+            target="_blank"
+            className="font-bold hover:text-[#0097e6d9] hover:dark:text-[#0cf2b2]"
+          >
+            @Hashstack
+          </a>
+          . <br />
+          as a dedicated {"   "}
           <RoughNotation
             animationDelay={2200}
             animationDuration={1100}
@@ -84,10 +92,11 @@ export default function Home() {
             multiline={true}
             order={"3"}
           >
-            <span className="text-black">frontend engineer</span>
+            <span className="text-black">fullstack developer</span>
           </RoughNotation>
-          {"  "} . I do competitive programming and open source in my free time.
-          <br></br> want to know what&apos;s up? hit me up on{" "}
+          {"  "}, i am passionate about crafting impactful web applications and
+          exploring emerging technologies. want to know what&apos;s up? hit me
+          up on{" "}
           <a
             href="https://www.linkedin.com/in/shaikhfaisal13/"
             target="_blank"
